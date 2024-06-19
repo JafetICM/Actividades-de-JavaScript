@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listados de Actividades.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Listado de Actividades.</h1>
+    <div class="activity">
+        <h2>1. Invertir una Cadena</h2>
+        <label for="string-input">Ingresa una cadena:</label>
+        <input type="text" id="string-input">
+        <button onclick="reverseString()">Invertir</button>
+        <p>Resultado: <span id="reverse-string-result"></span></p>
+    </div>
+
+    <div class="activity">
+        <h2>2. Número Primo</h2>
+        <label for="prime-input">Ingresa un número:</label>
+        <input type="number" id="prime-input">
+        <button onclick="checkPrime()">Verificar</button>
+        <p>Resultado: <span id="prime-number-result"></span></p>
+    </div>
+
+    <div class="activity">
+        <h2>3. Eliminar Duplicados en un Arreglo</h2>
+        <label for="array-input">Ingresa un arreglo (separado por comas):</label>
+        <input type="text" id="array-input">
+        <button onclick="removeDuplicates()">Eliminar Duplicados</button>
+        <p>Resultado: <span id="remove-duplicates-result"></span></p>
+    </div>
+
+    <div class="activity">
+        <h2>4. Factorial de un Número</h2>
+        <label for="factorial-input">Ingresa un número:</label>
+        <input type="number" id="factorial-input">
+        <button onclick="calculateFactorial()">Calcular Factorial</button>
+        <p>Resultado: <span id="factorial-result"></span></p>
+    </div>
+
+    <div class="activity">
+        <h2>5. Contar Vocales</h2>
+        <label for="vowels-input">Ingresa una cadena:</label>
+        <input type="text" id="vowels-input">
+        <button onclick="countVowels()">Contar Vocales</button>
+        <p>Resultado: <span id="count-vowels-result"></span></p>
+    </div>
+
+    <div class="activity">
+        <h2>6. Sumar los Números de un Arreglo</h2>
+        <label for="sum-array-input">Ingresa un arreglo (separado por comas):</label>
+        <input type="text" id="sum-array-input">
+        <button onclick="sumArray()">Sumar Números</button>
+        <p>Resultado: <span id="sum-array-result"></span></p>
+    </div>
+
+    <div class="activity">
+        <h2>7. Buscar el Máximo en un Arreglo</h2>
+        <label for="max-array-input">Ingresa un arreglo (separado por comas):</label>
+        <input type="text" id="max-array-input">
+        <button onclick="findMax()">Encontrar Máximo</button>
+        <p>Resultado: <span id="max-array-result"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

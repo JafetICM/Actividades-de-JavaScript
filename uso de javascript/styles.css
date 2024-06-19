@@ -1,0 +1,109 @@
+/* Reset de estilos para asegurar consistencia */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffefe;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.activity {
+    background-color: #8bb8f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 85px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00a706;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    input[type="text"],
+    input[type="number"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    .activity {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    input[type="text"],
+    input[type="number"] {
+        font-size: 14px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}
